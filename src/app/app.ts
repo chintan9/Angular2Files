@@ -21,8 +21,8 @@ import { Files } from "../files/files";
 
 // Configure the routes for the app
 @RouteConfig([
-    { name: "Login", component: Login, path: "/login" },
-    { name: "File", component: Files, path: "/files" }
+    { name: "Login", component: Login, path: "/login" }, /*login */
+    { name: "File", component: Files, path: "/files" }  /*files */
 ])
 
 export class App {
